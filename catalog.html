@@ -35,31 +35,33 @@
                </ul>
             </div>
             <div class="left-block">
-                <p>Производители</p>
-                <div>
-                    <input type="checkbox" name="producers" id="boc" checked>
-                    <label for="boc">Baxter of California</label>
-                    <input type="checkbox" name="producers" id="mr_natty">
-                    <label for="mr_natty">Mr Natty</label>
-                    <input type="checkbox" name="producers" id="suavecito" checked>
-                    <label for="suavecito">Suavecito</label>                    
-                    <input type="checkbox" name="producers" id="malin_goetz">
-                    <label for="malin_goetz">Malin+Goetz</label>
-                    <input type="checkbox" name="producers" id="murrays">
-                    <label for="murrays">Murray's</label>
-                    <input type="checkbox" name="producers" id="american" checked>
-                    <label for="american">American Crew</label>
-                </div>
-                <p>Группы товаров</p>
-                <div>
-                    <input type="radio" name="product_groups" value="Бритвенные принадлежности" id="shaving">
-                    <label for="shaving">Бритвенные принадлежности</label>                  
-                    <input type="radio" name="product_groups" value="Средства для ухода" id="care">
-                    <label for="care">Средства для ухода</label>   
-                    <input type="radio" name="product_groups" value="Аксессуары" id="accessories">
-                    <label for="accessories">Аксессуары</label>
-                </div>
+                <form action="#">
+                    <fieldset>
+                        <legend>Производители</legend>
+                            <input type="checkbox" name="producers" id="boc" checked>
+                            <label for="boc">Baxter of California</label>
+                            <input type="checkbox" name="producers" id="mr_natty">
+                            <label for="mr_natty">Mr Natty</label>
+                            <input type="checkbox" name="producers" id="suavecito" checked>
+                            <label for="suavecito">Suavecito</label>                    
+                            <input type="checkbox" name="producers" id="malin_goetz">
+                            <label for="malin_goetz">Malin+Goetz</label>
+                            <input type="checkbox" name="producers" id="murrays">
+                            <label for="murrays">Murray's</label>
+                            <input type="checkbox" name="producers" id="american" checked>
+                            <label for="american">American Crew</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Группы товаров</legend>
+                            <input type="radio" name="product_groups" value="Бритвенные принадлежности" id="shaving">
+                            <label for="shaving">Бритвенные принадлежности</label>                  
+                            <input type="radio" name="product_groups" value="Средства для ухода" id="care">
+                            <label for="care">Средства для ухода</label>   
+                            <input type="radio" name="product_groups" value="Аксессуары" id="accessories">
+                            <label for="accessories">Аксессуары</label>
+                    </fieldset>
                 <input type="submit" value="Показать">
+                </form>
             </div>
             <div class="right-block">
                 <section>
