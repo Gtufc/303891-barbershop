@@ -1,5 +1,5 @@
 body {
-    font-family: PT sans narrow;
+    font-family: "PT Sans Narrow";
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
@@ -9,15 +9,10 @@ body {
 h1 {
     font-family: PT sans narrow;
     font-size: 30px;
-    font-weight: bold;
     line-height: 42px;
-    color: #000000;
 }
 
 h2 {
     font-family: PT sans narrow;
-    font-size: 14px;
-    font-weight: bold;
     line-height: 18px;
-    color: #000000;
 }
